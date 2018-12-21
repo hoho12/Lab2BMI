@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void calculateBMI(View view){
-        int stringWMessage;
-        int stringHMessage;
-        double bmi=0;
+        double stringWMessage;
+        double stringHMessage;
+        double bmi;
         if(TextUtils.isEmpty(editTextWMessage.getText())){
             editTextWMessage.setError("Please enter your weight!");
             return;
